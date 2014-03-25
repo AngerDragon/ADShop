@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (2.0.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.0.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.0.3):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.0.3)
+  - AFNetworking/Security (2.0.3)
+  - AFNetworking/Serialization (2.0.3)
+  - AFNetworking/UIKit (2.0.3):
+    - AFNetworking/NSURLConnection
+  - FMDB (2.1):
+    - FMDB/standard
+  - FMDB/common (2.1)
+  - FMDB/standard (2.1):
+    - FMDB/common
+  - LKDBHelper (1.3):
+    - FMDB
+  - MRProgress (0.2.2)
+  - ReactiveCocoa (2.1.8):
+    - ReactiveCocoa/Core
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/Core (2.1.8):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.8)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0.3)
+  - LKDBHelper (~> 1.3)
+  - MRProgress (~> 0.2.2)
+  - ReactiveCocoa (~> 2.1.8)
+
+SPEC CHECKSUMS:
+  AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
+  FMDB: 3fd5aaf632ca4ed39e3f101e0398504e6d5b0918
+  LKDBHelper: bbfde3b82657425ce1d20478370d81328c27a89d
+  MRProgress: 51af562344c3fe38ce3c0617fd064f6f1ce55cd5
+  ReactiveCocoa: 0db710a0afa1c627a64470e5c912a3870d4854ae
+
+COCOAPODS: 0.27.1
